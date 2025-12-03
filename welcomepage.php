@@ -46,6 +46,19 @@ session_start();
         width: 100%; height: 100%; object-fit: cover; border-radius:10px; cursor:pointer;
     }
 
+    .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide video {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+
     /* Sale Cards */
     .sale-card { background-color:#fff; border:1px solid #ddd; transition: all 0.3s; }
     .sale-card h3, .sale-card p, .sale-card a { color:#333; }
@@ -116,11 +129,7 @@ session_start();
 
 
 
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next text-gray-700"></div>
-    <div class="swiper-button-prev text-gray-700"></div>
-</div>
+  
 
 <!-- Christmas Sale Cards -->
 <section class="py-16">
